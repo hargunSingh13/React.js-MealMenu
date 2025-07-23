@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1{
+    font-size: 37px;
+    color:brown;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+span{
+    font-size: 60px;
+    cursor:pointer;
+}
+.colored{
+    color: rgb(237, 201, 21);
+}
+.uncolor{
+    color: black;
+}
+.dark{
+   background-color: white;
+}
+.light{
+    background-color: rgb(178, 247, 178);
+}
+.bg{
+    background-color: black;
+    height:1050px;
+}
+.red{
+    background-color: rgb(243, 184, 184);
+}
+.blue{
+    background-color: rgb(185, 247, 226);
+}
+.yellow{
+    background-color: rgb(247, 247, 164);
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: rgb(255, 197, 89);
+}
